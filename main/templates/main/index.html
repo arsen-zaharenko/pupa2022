@@ -1,0 +1,13 @@
+{% extends 'main/layout.html'%}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <form method="POST" action="{% url 'submit' %}">
+        {% csrf_token %}
+        <input type="submit" value="Save inputs"/>
+        <input type="button" value="Add input tag" onclick="addInputTag(this)"/>
+        <br>
+        <input id="0" name="input" value="input 0"/>
+    </form>
+{% endblock %}
