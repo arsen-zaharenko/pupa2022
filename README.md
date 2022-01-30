@@ -7,14 +7,15 @@ sudo service postgresql start
 
 sudo -u postgres psql
 
-# postgres console
-CREATE DATABASE pupa2022;
+postgres=# CREATE DATABASE pupa2022;
 
-# change password for postgres or change user and password for database in settings.py
-\password
-# enter new password as 'password'
+# 2.1 change password for postgres or change user and password for database in settings.py
 
-\q
+postgres=# \password
+# 2.2 enter new password as 'password'
+Enter new password: password
+
+postgres=# \q
 # 3. create virtual enviroment
 sudo pip3 install virtualenv
 
