@@ -27,4 +27,5 @@ pip install django psycopg2-binary
 git clone https://github.com/arsen-zaharenko/pupa2022
 # 5. make migrations and run server
 python manage.py migrate
+
 python manage.py runserver 0.0.0.0:8000
