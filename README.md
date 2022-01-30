@@ -9,7 +9,7 @@ sudo -u postgres psql
 
 postgres=# CREATE DATABASE pupa2022;
 
-# 2.1 change password for postgres or change user and password for database in settings.py
+# 2.1 change password for postgres or change password for database in settings.py
 
 postgres=# \password
 # 2.2 enter new password as 'password'
