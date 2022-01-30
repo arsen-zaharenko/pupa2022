@@ -25,6 +25,5 @@ virtualenv django
 pip install django psycopg2-binary
 
 git clone https://github.com/arsen-zaharenko/pupa2022
-# 5. change password for db user in settings.py
 # 6. run server 
 python manage.py runserver 0.0.0.0:8000
