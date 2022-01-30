@@ -3,6 +3,8 @@ sudo apt update
 
 sudo apt install -y python3-pip postgresql postgresql-contrib git
 # 2. create postgresql db
+sudo service postgresql start
+
 sudo -u postgres psql
 
 # postgres console
