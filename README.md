@@ -18,7 +18,7 @@ virtualenv django
 
 . django/bin/activate
 # 4. install django and clone project
-pip install -y django psycorg2-binary
+pip install django psycorg2-binary
 
 git clone https://github.com/arsen-zaharenko/pupa2022
 # 5. change password for db user in settings.py
