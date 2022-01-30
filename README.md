@@ -14,10 +14,6 @@ CREATE DATABASE pupa2022;
 # 3. create virtual enviroment
 sudo pip3 install virtualenv
 
-mkdir ~/pupa2022
-
-cd ~/pupa2022
-
 virtualenv django
 
 . django/bin/activate
